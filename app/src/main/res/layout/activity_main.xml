@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="textview"
+            android:text="TextView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/btn_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="imagebutton"
+            android:text="ImageButton"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radiobutton"
+            android:text="RadioButton与RadioGroup"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkbox"
+            android:text="CheckBox"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="progressbar"
+            android:text="ProgressBar"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="img"
+            android:text="IamgeView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="dialog"
+            android:text="Dialog"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="intent"
+            android:text="意图Intent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="service"
+            android:text="Service生命周期"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="remoteservice"
+            android:text="远程服务Service"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="broadcastreceiver"
+            android:text="广播接收者BroadcastReceiver"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="contentprovider"
+            android:text="内容提供者ContentProvider"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewone"
+            android:text="自定义View(一)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="xml"
+            android:text="xml文件的生成与解析"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="json"
+            android:text="json数据的解析"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="json"
+            android:text="json数据的解析"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="httpbase"
+            android:text="HttpURLConnection进行网络访问"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="volleyuseage"
+            android:text="Volley的用法"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="okhttpuseage"
+            android:text="Okhttp的用法"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="retrofituseage"
+            android:text="Retrofit的用法"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"/>
+    </LinearLayout>
+</ScrollView>
+

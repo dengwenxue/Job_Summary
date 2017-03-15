@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/volley_ll_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_volley_stringrequest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="StringRequest的用方法"
+            android:textColor="@color/colorPrimary"
+            android:textSize="8sp"/>
+
+        <Button
+            android:id="@+id/btn_volley_jsonrequest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="JsonRequest的用法"
+            android:textColor="@color/colorPrimary"
+            android:textSize="9sp"/>
+
+        <Button
+            android:id="@+id/btn_volley_image_load"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="使用Volley加载网络图片"
+            android:textColor="@color/colorPrimary"
+            android:textSize="8sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/volley_ll_costum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/volley_ll_base"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_volley_custom_request_xml"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自定义XmlRequest"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/btn_volley_custom_request_json"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自定义GsonRequest"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_volley_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/volley_ll_costum"
+        android:text="Volley源码分析"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <ScrollView
+        android:id="@+id/sv_volley"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/btn_volley_source">
+
+        <EditText
+            android:id="@+id/et_volley_response"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Volley访问网络，返回的数据"/>
+    </ScrollView>
+
+    <!-- <ImageView
+        android:id="@+id/iv_volley"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/sv_volley"
+        android:layout_centerHorizontal="true"/> -->
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/network_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sv_volley"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

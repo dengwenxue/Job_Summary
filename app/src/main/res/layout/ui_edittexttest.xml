@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <!-- android:inputType来设置文本的类型，让输入法选择合适的软键盘的 -->
+    <!-- android:imeOptions指定输入法窗口中的回车键的功能，可选值为normal,actionNext，actionDone，actionSearch等。部分输入法对此的支持可能不够好 -->
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:cursorVisible="true"
+        android:gravity="center"
+        android:hint="请输入内容"
+        android:imeOptions="normal"
+        android:inputType="text"
+        android:maxLength="40"
+        android:maxLines="1"
+        android:textColorHint="#0000ff"
+        android:textStyle="normal"/>
+
+</RelativeLayout>

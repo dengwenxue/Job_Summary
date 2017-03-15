@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog1"
+        android:text="普通Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog2"
+        android:text="列表Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog3"
+        android:text="单选Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog4"
+        android:text="多选Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog5"
+        android:text="等待Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog6"
+        android:text="进度条Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog7"
+        android:text="编辑Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialog8"
+        android:text="自定义Dialog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+</LinearLayout>

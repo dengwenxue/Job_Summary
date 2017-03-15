@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_contentprovider_creatdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库中生成数据"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_contentprovider_quary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询银行数据"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_contentprovider_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向数据库中添加一条数据"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_contentprovider_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除数据库中的信息"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_contentprovider_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新数据库中的信息"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"/>
+</LinearLayout>
